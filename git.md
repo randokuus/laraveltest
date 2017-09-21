@@ -16,4 +16,9 @@ git push -u origin master
 git log
 #võtab serverist viimase versiooni (nt kui muudetud on mujal kui teie arvutist)
 git pull origin master --allow-unrelated-histories
-#git config --global user.email example@address.com
+#kasutaja konfigureerimine
+git config --global user.email example@address.com
+#uue branchi loomine
+git checkout -b v001
+#branchi vahetamine
+git checkout master
