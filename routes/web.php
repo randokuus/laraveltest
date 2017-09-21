@@ -20,7 +20,7 @@ Route::view('/welcome', 'welcome');
 /*Route::get('user/{id}', function($id){
     return 'user'.$id;
 });*/
-
+//id põhine muutuja kuvamine .
 Route::get('user/{id}',function($id){
     return 'user'.$id;
 })->where('id','[0-9]+');
